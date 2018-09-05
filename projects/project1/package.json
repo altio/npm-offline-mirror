@@ -1,0 +1,23 @@
+{
+    "dependencies": {
+        "ag-grid": "*",
+        "babel-core": "*",
+        "babel-loader": "*",
+        "babel-plugin-angularjs-annotate": "*",
+        "babel-preset-env": "*",
+        "babel-register": "*",
+        "base64-inline-loader": "*",
+        "copy-webpack-plugin": "*",
+        "css-loader": "*",
+        "docker-names": "*",
+        "html-loader": "*",
+        "rimraf": "*",
+        "standard-loader": "*",
+        "stompjs": "*",
+        "style-loader": "*",
+        "webpack": "*",
+        "webpack-merge": "*",
+        "xterm": "*"
+    },
+    "devDependencies": {}
+}

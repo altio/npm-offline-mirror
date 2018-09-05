@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  mirror:
+    build: .
+    command: ./src/start.sh
+    volumes:
+      - ./data:/data:z
+      - ./projects:/home/node/projects:z
+      - ./src:/home/node/src:z
+    ports:
+      - "5080"
