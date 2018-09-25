@@ -22,5 +22,4 @@ RUN mkdir -p ${NVM_DIR}
 RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 RUN . ${NVM_DIR}/nvm.sh \
     && nvm alias default ${NODE_VERSION} \
-    && nvm use default \
-    && npm install -g local-npm
+    && nvm use default

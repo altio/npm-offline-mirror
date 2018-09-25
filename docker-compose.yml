@@ -1,13 +1,14 @@
 version: '3'
 
 services:
-
   mirror:
     build: .
-    command: ./src/start.sh
     volumes:
-      - ./data:/data:z
       - ./projects:/home/node/projects:z
       - ./src:/home/node/src:z
+  nexus:
+    image: sonatype/nexus3
+    volumes:
+      - ${NEXUS_DATA_DIR}:/nexus-data:z
     ports:
-      - "5080"
+      - "8081:8081"

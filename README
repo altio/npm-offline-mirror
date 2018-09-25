@@ -1,0 +1,17 @@
+Setup Internet Proxy
+
+./setup.sh
+admin:admin123
+
+http://localhost:8081/#admin/repository/blobstores
+create file blob store
+name: npm
+
+http://localhost:8081/#admin/repository/repositories
+create npm (proxy)
+name: npm
+remote storage: https://registry.npmjs.org
+use nexus truststore: checked
+view certificate
+add cert to truststore
+blob store: npm

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 . $NVM_DIR/nvm.sh
-npm set registry http://127.0.0.1:5080
+npm set registry http://nexus:8081/repository/npm/
 for i in $( ls ~/projects ); do
   echo "copying package.json for $i"
   cp ~/projects/$i/package.json .
