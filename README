@@ -15,3 +15,5 @@ use nexus truststore: checked
 view certificate
 add cert to truststore
 blob store: npm
+
+docker-compose run mirror src/update.sh
