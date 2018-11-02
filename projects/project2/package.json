@@ -1,5 +1,7 @@
 {
     "dependencies": {
+        "@types/enzyme": "*",
+        "@types/jest": "*",
         "async": "*",
         "axios": "*",
         "classnames": "*",
@@ -42,6 +44,7 @@
         "file-saver": "*",
         "flow-bin": "*",
         "@material-ui/core": "*",
+        "@material-ui/icons": "*",
         "prop-types": "*",
         "react": "*",
         "react-animations": "*",
