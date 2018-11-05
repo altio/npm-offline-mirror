@@ -1,8 +1,7 @@
 FROM debian:stretch-slim
 
 # os deps
-RUN apt-get update && apt-get install -y build-essential nodejs
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get install -y build-essential curl git nodejs
 
 # create an unprivileged user to tie to running user
 RUN groupadd --gid 1000 node \
