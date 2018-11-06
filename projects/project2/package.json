@@ -45,6 +45,7 @@
         "flow-bin": "*",
         "@material-ui/core": "*",
         "@material-ui/icons": "*",
+        "mui-datatables": "*",
         "prop-types": "*",
         "react": "*",
         "react-animations": "*",
